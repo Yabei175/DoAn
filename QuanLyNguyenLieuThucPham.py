@@ -227,8 +227,8 @@ def hien_thi_nguyen_lieu(HienThi_frame):
     def xoa_nguyen_lieu():
         selected_index = danh_sach_nguyen_lieu.curselection()
         if selected_index:
-            selected_drink = item_list[selected_index[0]]
-            item_list.remove(selected_drink)
+            selected_item = item_list[selected_index[0]]
+            item_list.remove(selected_item)
             cap_nhat_danh_sach_nguyen_lieu()
             messagebox.showinfo("Thành Công", "Nguyên Liệu đã được xóa!")
         else:
