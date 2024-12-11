@@ -424,7 +424,6 @@ def hien_thi_hoa_don(HienThi_frame):
             c.drawString(30, 690, f"Ngày Lập: {hoa_don_chon['Ngày Lập']}")
             c.drawString(30, 675, f"Loại Thanh Toán: {hoa_don_chon['Loại Thanh Toán']}")  # Payment type
 
-            # Chi tiết thức uống
             y_position = 660
             c.drawString(30, y_position, "Chi Tiết Nguyên Liệu:")
             y_position -= 20
